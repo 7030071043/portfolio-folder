@@ -1,0 +1,286 @@
+* {
+  scroll-behavior: smooth;
+  }
+
+body {
+box-sizing: border-box;
+line-height: 1.5;
+font-family: 'Source Sans Pro', sans-serif;
+overflow-x: hidden;
+background-color: #fafafa;
+}
+
+.home-hero {
+color: #111;
+background: url('./assets/background.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff; /* or #111 for dark theme */
+  border-bottom: 1px solid #eee;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid #7843E9;
+  zoom: 100%;
+}
+
+.nav-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #7843E9;
+}
+
+
+.head-primary {
+font-size: 3rem;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-weight: 800;
+color: #111;
+}
+
+.below-header,
+.below-me {
+color: #333;
+font-size: 1.25rem;
+text-align: center;
+margin-top: 20px;
+}
+
+.btn-btn-bg {
+background: #7843E9;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding: 10px 20px;
+font-weight: 700;
+border-radius: 5px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+border: none;  
+text-decoration: none;
+ }
+
+ .btn-btn-bg:hover{
+cursor: pointer;
+color: white;
+text-decoration: none;
+background-color: #77dd77;
+  }
+
+.container-about-me {
+text-align: center;
+margin-top: 4rem;
+color: #333;
+}
+
+.main-container {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 2rem;
+}
+
+.left-content,
+.right-content {
+flex: 1;
+min-width: 300px;
+}
+
+.content-skills {
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+margin-top: 1rem;
+margin-left: 19%;
+}
+
+.skills\_\_skill {
+padding: 0.5rem 1rem;
+background: rgba(153, 153, 153, 0.2);
+border-radius: 5px;
+font-weight: 600;
+color: #666;
+}
+
+.projects\_\_row {
+display: flex;
+gap: 5rem;
+margin-left: 10%;
+margin-right: 10%;
+align-items: center;
+flex-wrap: nowrap;
+margin-bottom: 10%;
+}
+
+.projects\_\_row-img-cont {
+overflow: hidden;
+flex: 1.5;
+max-width: 100%;
+}
+
+.projects\_\_row-img {
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 10px;
+display: block;
+}
+.projectphtos{
+height: 20%;
+width: 20%;
+}
+
+.projects\_\_row-content {
+flex: 1;
+padding: 2rem 0;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.main-footer {
+background-color: #111;
+color: #ccc;
+padding: 60px 20px 20px;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+}
+
+.footer-section {
+flex: 1 1 220px;
+margin: 20px;
+}
+
+.footer-title {
+color: #7843E9;
+margin-bottom: 15px;
+font-size: 20px;
+font-weight: 600;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+font-size: 14px;
+line-height: 1.6;
+color: #ccc;
+text-decoration: none;
+}
+
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-section li {
+margin-bottom: 10px;
+}
+ .footer-section a:hover {
+  color: #7843E9;
+
+ }
+
+.social-icons a {
+color: #ccc;
+margin-right: 15px;
+font-size: 18px;
+transition: color 0.3s;
+}
+
+.social-icons a:hover {
+color: #7843E9;
+}
+
+.footer-bottom {
+text-align: center;
+padding: 15px 0;
+border-top: 1px solid #333;
+margin-top: 40px;
+font-size: 14px;
+color: #aaa;
+}
+
+@media (max-width: 768px) {
+.footer-container {
+flex-direction: column;
+text-align: center;
+}
+
+.footer-section {
+margin: 10px 0;
+}
+
+.social-icons {
+justify-content: center;
+}
+}
+.h2{
+ margin-left: 20%;
+}
+.projectphtos{
+  height: 10%;
+  width: 25%;
+  
+}
+.button-group {
+  display: flex; 
+  gap: 15px; /* space between them */
+  margin-left: 20%;
+  
+}
+.button-1{
+  text-align: center;
+  /* margin-left: 20%; */
+  margin-top: 50px;
+}
