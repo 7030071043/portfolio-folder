@@ -18,7 +18,7 @@ const params = {
 };
 
 
-  emailjs.sendForm('service_p4wg4vn', 'template_6dsx0cq', params)
+  emailjs.send('service_p4wg4vn', 'template_6dsx0cq', params)
     .then(function() {
       alert('Message Sent Successfully!');
       window.location.reload();
