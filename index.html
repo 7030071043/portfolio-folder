@@ -164,7 +164,8 @@ then don't hesitate to contact me.
     </div>
 
     <div class="home-hero" id="contactus">
-<div class="text-center ">
+      
+<div class="text-center">
         <h2>CONTACT US</h2>
         <p class="below-header">Feel free to Contact me by submitting the form below and I will get back to you as soon as <br>
             possible</p>
@@ -172,6 +173,7 @@ then don't hesitate to contact me.
              <div class="row justify-content-center">
                 <div class="col-md-5 col-sm-12">
                    <div class="form-group mb-3">
+                    <form onsubmit="handle_submit(event)">
                       <label for="name" class="form-label text-light">Name</label>
                       <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name" required >
                    </div>
@@ -203,11 +205,14 @@ then don't hesitate to contact me.
                 <div class="col-md-auto">
                    <button type="submit" class="btn-btn-bg mt-4 mt-2">Send Message</button>
                 </div>
+                 </form>
              </div>
+            
            </div>
     </div>
     
     </div>
+  
 </body>
 <footer class="main-footer">
   <div class="footer-container">
@@ -221,28 +226,28 @@ then don't hesitate to contact me.
     <div class="footer-section links">
       <h2 class="footer-title">Quick Links</h2>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#homed">Home</a></li>
+        <li><a href="#projectus">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contactus">Contact</a></li>
         <li><a href="#resume">Resume</a></li>
       </ul>
     </div>
 
     <div class="footer-section contact">
       <h2 class="footer-title">Contact</h2>
-      <p>Email: yourname@example.com</p>
-      <p>Phone: +91 98765 43210</p>
+      <p>Email: shubhamborade22519@gmail.com</p>
+      <p>Phone: +91 7030071043</p>
       <p>Location: Pune, India</p>
     </div>
 
     <div class="footer-section social">
       <h2 class="footer-title">Follow Me</h2>
       <div class="social-icons">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="www.github.com"><i class="fab fa-github"></i></a>
+        <a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
   </div>
@@ -259,6 +264,9 @@ then don't hesitate to contact me.
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 />
 
-
-
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+ 
+<script src="index.js"></script>
 </html>
