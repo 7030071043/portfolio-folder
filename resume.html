@@ -2,85 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shubham Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" />
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="resume.css" />
-  <link rel="stylesheet" href="Portfolio design.css">
+  <link rel="stylesheet" href="Portfolio design.css" />
 </head>
-<body>
-       <header class="navbar-container">
 
-
-        <ul class="nav justify-content-end">
-
-            <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html" >ABOUT</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projectus">PROJECTS</a></li>
-            <li class="nav-item"><a class="nav-link" href="resume.html">PROFILE</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html">CONTACT</a></li>
-        </ul>
-               <div class="nav-brand"> 
-
-    <img src="./assets/profile icon.jpeg" alt="Shubham Borade" class="nav-photo" />
-    <span class="nav-name">Shubham Borade</span>
-  </div>
+<body> 
+<!-- navbar starts here -->
+<div id="navbar"></div>
  
-    </header>
 
-  <section class="hero">
-    <div class="left-section">
-      <img src="./assets/profile-bg-removed.png" alt="Shubham Image" />
-    </div>
-    <div class="right-section">
-      <h3>Hello!</h3>
-      <h1>I’m <span>SHUBHAM BORADE</span></h1>
-      <p> A Result-Oriented Web Developer building and managing Websites and Web <br />
-            Applications that lead to success of the overall product</p>
-      <a class="right-section-button" href="resume-inside.html">Resume</a>
-    </div>
-  </section>
-</body>
-<footer class="main-footer">
-  <div class="footer-container">
-    <div class="footer-section about">
-      <h2 class="footer-title">About Me</h2>
-      <p>
-        I'm a passionate Full Stack Developer with a knack for building responsive and engaging digital experiences. Always eager to learn and innovate.
-      </p>
-    </div>
-
-    <div class="footer-section links">
-      <h2 class="footer-title">Quick Links</h2>
-      <ul>
-        <li><a href="#homed">Home</a></li>
-        <li><a href="#projectus">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contactus">Contact</a></li>
-        <li><a href="#resume">Resume</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-section contact">
-      <h2 class="footer-title">Contact</h2>
-      <p>Email: shubhamborade22519@gmail.com</p>
-      <p>Phone: +91 7030071043</p>
-      <p>Location: Pune,Maharashtra,India</p>
-    </div>
-
-    <div class="footer-section social">
-      <h2 class="footer-title">Follow Me</h2>
-      <div class="social-icons">
-        <a href="https://github.com/login?lang=en"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://x.com/i/flow/login?lang=en"><i class="fab fa-x"></i></a>
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="left-section">
+        <img src="./assets/profile-bg-removed.png" alt="Shubham Image" />
       </div>
-    </div>
-  </div>
+      <div class="right-section">
+        <h3>Hello!</h3>
+        <h1>I’m <span>SHUBHAM BORADE</span></h1>
+        <p>A Result-Oriented Web Developer building and managing Websites and Web <br />
+          Applications that lead to success of the overall product</p>
+        <a class="right-section-button" href="resume-inside.html">Resume</a>
+      </div>
+    </section>
+  </main>
+ 
 
-  <div class="footer-bottom">
-    <p>&copy; 2025 Shubham Borade. All rights reserved.</p>
-  </div>
-</footer>
+  <div id="footer"></div>
+</body>
+
+<script src="header and footer.js"></script>
 </html>

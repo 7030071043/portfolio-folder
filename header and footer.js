@@ -1,7 +1,18 @@
-window.addEventListener('DOMContentLoaded',()=>{
-
-    fetch('footer main.html')
-.then(res =>res.test())
-.then(data =>document.getElementById('footer').innerHTML = data)
-
+document.addEventListener('DOMContentLoaded', async () => {
+  
+    const res = await fetch('navbar.html');
+  const html = await res.text();
+ 
+  document.getElementById('navbar').innerHTML = html;
 });
+
+
+document.addEventListener('DOMContentLoaded', async () => {
+  
+    const res = await fetch('footer.html');
+  const html = await res.text();
+ 
+  document.getElementById('footer').innerHTML = html;
+});
+
+
